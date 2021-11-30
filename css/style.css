@@ -36,17 +36,9 @@ header{
     transition: background-color .5s ease;
     background: rgba(0, 0, 0, 0.5);
 }
-.logo span{
-    font-style: italic;
-    font-weight: bold;
-    font-size: 2.6vh;
-    position: absolute;
-    margin-left: -2.8vh;
-    margin-top: -1.2vh;
-}
 .logo svg{
     margin-left: -20vh;
-    height: 3.5vh;
+    height: 3vh;
 }
 
 #navLink{
@@ -95,7 +87,7 @@ header{
 }
 
 .products1{
-    margin-top: -20vh;
+    margin-top: -12%;
     height: 120vh;
 }
 
@@ -105,6 +97,8 @@ header{
 }
 
 .left img{
+	margin-top: 30vh;
+    transform: rotate(-10deg);
     max-width: 80%;
 }
 
@@ -183,6 +177,7 @@ button:hover{
 }
 
 .products2{
+    margin-top: -2%;
     height: 110vh;
     background-color: #d1d8e0;
     z-index: -10;
@@ -312,4 +307,7 @@ footer{
 }
 .fr #dog{
     width: 15%;
+}
+.left{
+    margin-top: -15%;
 }
