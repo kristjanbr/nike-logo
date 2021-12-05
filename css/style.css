@@ -97,8 +97,9 @@ header{
 }
 
 .left img{
+    margin-left: 5vh;
 	margin-top: 30vh;
-    transform: rotate(-10deg);
+    transform: rotate(10deg);
     max-width: 80%;
 }
 
@@ -256,11 +257,13 @@ button:hover{
 }
 
 .rating{
+    opacity: 0.2;
     padding: 40px 0;
     background: #d1d8e0;
     color: #1e272e;
     text-align: center;
     padding: 30px;
+    transition: opacity .5s ease;
 }
 
 .rating img{
@@ -276,6 +279,7 @@ button:hover{
 }
 
 #canvas{
+    opacity: 0.8;
     margin-left: 12%;
     margin-top: 18%;
     width: 60%
@@ -287,27 +291,39 @@ button:hover{
     width: 80%;
 }
 
-footer{
-    color: #d1d8e0;
-    height: 8em;
-    background-color: #2a2e30;
-    padding: 3vh;
-}
-
-.fl{
-    float: left;
-}
-
-.fr{
-    width: 10em;
-    float: right;
-}
-.fr #card{
-    width: 60%;
-}
-.fr #dog{
-    width: 15%;
+#r1:hover, #r2:hover, #r3:hover{
+    transition: opacity .5s ease;
+    opacity: 1;
 }
 .left{
     margin-top: -15%;
+}
+
+footer{
+    color: #d1d8e0;
+    background-color: #1e272e;
+    background-color: #2a2e30;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.fot{
+    padding: 0 3vh;
+}
+
+#card{
+    width: 13vh;
+}
+#dog{
+    width: 3vh;
+}
+#fotm{
+    text-align: center;
+    bottom: 0;
+}
+#fotr{
+    float: right;
+}
+.logof svg{
+    height: 5vh;
 }
