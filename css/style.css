@@ -317,13 +317,14 @@ footer{
 #dog{
     width: 3vh;
 }
-#fotm{
+.fot{
     text-align: center;
-    bottom: 0;
 }
-#fotr{
-    float: right;
-}
+
 .logof svg{
     height: 5vh;
+}
+.colf{
+    flex: 10%;
+    padding: 15px;
 }
