@@ -192,6 +192,13 @@ button:hover{
     left: 0px;
     margin-bottom: 50vh;
 }
+.nikeLogoBlack{
+    position: relative;
+    margin-left: 35%;
+    margin-top: 20%;
+    z-index: 2; 
+    width: 28%;
+}
 
 .img2{
     position: relative;
@@ -201,13 +208,6 @@ button:hover{
     width: 80%;
 }
 
-.nikeLogoBlack{
-    position: relative;
-    margin-left: 35%;
-    margin-top: 20%;
-    z-index: 2; 
-    width: 28%;
-}
 
 .products3{
     position: relative;
@@ -279,10 +279,10 @@ button:hover{
 }
 
 #canvas{
+    width: 50%;
     opacity: 0.8;
-    margin-left: 12%;
+    padding-left: 12%;
     margin-top: 18%;
-    width: 60%
 }
 
 .img3{
@@ -304,26 +304,25 @@ footer{
     background-color: #1e272e;
     background-color: #2a2e30;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    align-items: flex-end;
+    justify-content: space-between;
 }
 .fot{
     padding: 0 3vh;
 }
 
-#card{
-    width: 13vh;
-}
-#dog{
-    width: 3vh;
-}
 #fotm{
     text-align: center;
-    bottom: 0;
 }
-#fotr{
-    float: right;
-}
+
 .logof svg{
     height: 5vh;
+}
+
+.colm{
+    padding: 15px;
+}
+
+#list{
+    padding-left: 4vh;
 }
