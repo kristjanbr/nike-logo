@@ -27,7 +27,7 @@ header{
     justify-content: space-between;
     vertical-align: middle;
     align-self: center;
-    padding: 1em 20vh;
+    padding: 0 10vh;
     position: fixed;
 }
 
@@ -36,10 +36,6 @@ header{
     transition: background-color .5s ease;
     background: rgba(0, 0, 0, 0.5);
 }
-.logo svg{
-    margin-left: -20vh;
-    height: 3vh;
-}
 
 #navLink{
     list-style: none;
@@ -47,7 +43,7 @@ header{
 
 #navLink li{
     display: inline-block;
-    padding: 0 1vh;
+    padding: 1.5vh 1vh;
 }
 
 #navLink li a{
@@ -304,7 +300,7 @@ footer{
     background-color: #1e272e;
     background-color: #2a2e30;
     display: flex;
-    align-items: flex-end;
+    align-items: center; /*flex-end*/
     justify-content: space-between;
 }
 .fot{
